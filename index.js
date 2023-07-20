@@ -16,6 +16,7 @@ function data() {
         arrayCorreos[i].innerHTML = json.results[i].email
         arrayPhones[i].innerHTML = json.results[i].phone
       }
+
       input.oninput = () => {
         const arrayFullNombres = []
         const inputLower = input.value.toLowerCase()
@@ -28,13 +29,9 @@ function data() {
             arrayLista[i].style.display = 'list-item';
         else
             arrayLista[i].style.display = 'none';
-
-
         }
-        console.log(arrayFilter)
       }
     })
-
 }
 
 data()
