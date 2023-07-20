@@ -41,10 +41,16 @@ img {
   margin-top: 1em;
 }
 
-hr{
+hr {
   width: 80%;
   margin-top: 1em;
   color: black;
+}
+
+h4 {
+  width: 90%;
+  text-align: center;
+  font-size: 14px;
 }
 
 
