@@ -66,6 +66,7 @@ input:focus {
 .card:hover {
   background-color: antiquewhite;
   transform: scale(1.1);
+  transform: rotateY(180deg);
 }
 
 img {
@@ -73,7 +74,9 @@ img {
   height: 80px;
   border-radius: 100em;
   margin-top: 1em;
+  transition: 1s;
 }
+
 
 hr {
   width: 80%;
@@ -82,7 +85,7 @@ hr {
 }
 
 h4 {
-  width: 90%;
+  width: 100%;
   text-align: center;
   font-size: 14px;
 }
